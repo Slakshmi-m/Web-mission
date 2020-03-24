@@ -1,0 +1,114 @@
+body{
+	background-color: #fff;
+	color: #000;
+	font-family: Georgia,serif;
+	font-size: 20px;
+	line-height: 1.6em;
+	margin:0;
+}
+
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color: #000;
+	color: #fff;
+	font-family:"Times New Roman",Times,serif;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 2px 2px 10px white;
+    letter-spacing: .2em;
+    word-spacing: 1em;
+}
+
+#navbar{
+	background-color: black;
+    color: white;  
+    text-align: center;  
+    word-spacing: 1em;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar a:hover{
+	color: gray;
+}
+
+#showcase{
+	color: #880E4F;
+	font-family:Georgia,serif;
+    font-weight: normal;
+	text-align: center;
+	background-image: url('../images/women.jpg');
+	background-position: center center;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-transform: center;
+	text-shadow: 2px 2px 10px white;
+}
+
+#main{
+	float: left;
+	width:70%;
+	padding:20px 30px;
+	box-sizing: border-box;
+	min-height:80px;
+	border: 5px, black, dotted;
+	background-color: pink;
+}
+
+#main p{
+	font-style:italic;
+}
+
+#sidebar{
+	float: right;
+	width:30%;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#sidebar form{
+	background-color: black;
+	color: white;
+	padding:20px;
+}
+
+#main-footer{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	min-height: 1px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float:none;
+	}
+	#sidebar{
+		width: 100%;
+		float:none;
+	}
+}
